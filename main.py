@@ -29,3 +29,4 @@ for index, row in df.iterrows():
             pdf.line(10, 21 + i, 200, 21 + i)
 
 pdf.output("output.pdf")
+
